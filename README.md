@@ -1,16 +1,17 @@
 ## DAFace --- Face Detection and Alignment
 
 ### Description
-    DAFace is an open source c++ project to deal with face image pre-process. It contains five parts:
-    Detect(det)       use SeetaFace to detect face region & 5 facial points
-    Clean(clean)      clean the invalid facial points data
-    Draw(draw)        draw facial pionts
-    Crop(crop)        crop facial region & resize to unified size
-    Normalize(norm)   align face & resize to unified size
+DAFace is an open source c++ project to deal with face image pre-process. It contains five parts:
+* Detect(det)---use [SeetaFace](https://github.com/seetaface/SeetaFaceEngine) to detect face region & 5 facial points
+* Clean(clean)---clean the invalid facial points data
+* Draw(draw)---draw facial pionts
+* Crop(crop)---crop facial region & resize to unified size
+* Normalize(norm)---align face & resize to unified size
 
 ### Required
-    OpenCV Library
-    Boost C++ Libraries (do not need to compile)
+* [SeetaFace](https://github.com/seetaface/SeetaFaceEngine)
+* OpenCV Library
+* Boost C++ Libraries (do not need to compile)
 
 ### Compile
     mkdir build && cd build
@@ -52,3 +53,6 @@
 
 ### Example
 ![example](./doc/example.png)
+
+### Contact Info
+If you have any problem on this project, please contact me by sending email to binlearning@163.com.
