@@ -91,7 +91,7 @@ bool ParamParsing(int argc, char* argv[], map<string,string>& param_map)
           "directory to store the processed images\n"
           "default: current folder")
       ("info_file", bpo::value<string>(&info_file_cmdline),
-          "information file\n"
+          "[required] information file\n"
           "textfile to store the facial points information")
       ("new_size", bpo::value<string>(&new_size_cmdline),
           "[optional] unified size, effective range [64, 1280]\n"
