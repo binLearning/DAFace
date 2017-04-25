@@ -41,7 +41,6 @@ const int CCT_ERROR  = 2;
 static void CustomCout(std::string output, int type = CCT_INFO);
 static bool IsValidArgs(map<string,string>& param_map);
 
-
 /*
 NOTE:
 modify libs/program_options/src/options_description.cpp
