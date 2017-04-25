@@ -41,7 +41,7 @@ DAFace is an open source c++ project to deal with face image pre-process. It con
     --dst_dir arg          [optional] destination directory
                            directory to store the processed images
                            default: current folder
-    --info_file arg        information file
+    --info_file arg        [required] information file
                            textfile to store the facial points information
     --new_size arg         [optional] unified size, effective range [64, 1280]
                            default: 256
