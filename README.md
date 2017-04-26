@@ -19,7 +19,7 @@ DAFace is an open source c++ project to deal with face image pre-process. It con
     make
 
 ### Usage
-    -h [ --help ]          display help message<br>
+    -h [ --help ]          display help message
 
       Detect      detect face region & 5 facial points
       (det)       ./proc --mode=det --src_dir=sdir [--dst_dir=ddir]
